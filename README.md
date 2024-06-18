@@ -1,3 +1,8 @@
+# About
+This is a website called "Odin Recipes" and there are links on it that would lead to three(3) foods that I think are my favorite foods to eat.
+
+This is a project I was tasked to do from The Odin Project and is purely html. Due to it, I have gained wisdom from the hands-on experience of making a website.
+
 # From Hands-On Experience
 - Learned how to make a website.
 - Learned how to make webpages and style them.
