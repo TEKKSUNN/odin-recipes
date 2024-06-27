@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+}
+
+body div{
+    background-color: lightblue;
+    border: 1vw dashed black;
+    border-radius: 5vw;
+    margin: 5vw;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+img{
+    display: block;
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+}
+
+header,
+.content,
+img,
+footer .go-back {
+    border: 0.5vw solid black;
+    border-radius: 5vw;
+}
+
+header,
+.content{
+    display: block;
+    background-color: rgb(255, 196, 87);
+    margin: 2vw 10vw;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.content p,
+.content ul,
+.content ol {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .go-back {
+    display: inline-block;
+    font-size: 5vw;
+    background-color: orangered;
+    color: black;
+    padding: 1vw;
+    margin-bottom: 2vw;
+}

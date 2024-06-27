@@ -3,43 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <title>Pizza Recipe</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Pizza</h1>
-        <img src="./pizza.jpg" alt="pizza divided into eight slices placed on a blue table">
+        <div>
+            <header>
+                <h1 class="title">Pizza</h1>
+            </header>
 
-        <h2>Description</h2>
-            <p>Pizza is a traditional Italian dish typically 
-            consisting of a flat base of leavened wheat-based dough
-            topped with tomato, cheese, and other ingredients, baked 
-            at a high temperature, traditionally in a wood-fired oven.</p>
-            <p>Pizza generally consists of a crust covered in sauce, 
-            layered with toppings and finally with a layer of
-            cheese on top.</p>
+            <div class="image">
+                <img src="./pizza.jpg" alt="pizza divided into eight slices placed on a blue table">
+            </div>
 
-        <h2>Ingredients</h2>
-            <ul>
-                <li>Dough</li>
-                <li>Sauce</li>
-                <li>Cheese</li>
-                <li>Pepperoni</li>
-            </ul>
-        
-        <h2>Steps</h2>
-         <ol>
-            <li>Start with a crust.</li>
-            <li>Add a sauce.</li>
-            <li>Add cheese.</li>
-            <li>Add toppings such as pepperoni.</li>
-            <li>Bake pizza in a hot oven (450 Fahrenheit or above)
-            till nice and crispy.</li>
-            <li>Take it out and enjoy!</li>
-         </ol>
+            <main>
+                <div class="content description">
+                    <h2>Description</h2>
+                        <p>Pizza is a traditional Italian dish typically 
+                        consisting of a flat base of leavened wheat-based dough
+                        topped with tomato, cheese, and other ingredients, baked 
+                        at a high temperature, traditionally in a wood-fired oven.</p>
+                        <p>Pizza generally consists of a crust covered in sauce, 
+                        layered with toppings and finally with a layer of
+                        cheese on top.</p>
+                </diV>
 
+                <div class="content ingredients">
+                    <h2>Ingredients</h2>
+                        <ul>
+                            <li>Dough</li>
+                            <li>Sauce</li>
+                            <li>Cheese</li>
+                            <li>Pepperoni</li>
+                        </ul>
+                </div>
+
+                <div class="content steps">
+                    <h2>Steps</h2>
+                    <ol>
+                        <li>Start with a crust.</li>
+                        <li>Add a sauce.</li>
+                        <li>Add cheese.</li>
+                        <li>Add toppings such as pepperoni.</li>
+                        <li>Bake pizza in a hot oven (450 Fahrenheit or above)
+                        till nice and crispy.</li>
+                        <li>Take it out and enjoy!</li>
+                    </ol>
+                </div>
+            </main>
+        </div>
     </body>
 
     <footer>
-        <a href="../index.html">Go Back</a>
+        <a class="go-back" href="../index.html" target="_self" rel="noopener noreferrer">Back to homepage</a>
     </footer>
 </html>
