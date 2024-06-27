@@ -3,13 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
+        <header>
+            <h1 class="title">Odin Recipes</h1>
+        </header>
 
-        <a href="./recipes/chicken-curry.html" target="_blank" rel="noopener noreferrer">Chicken Curry</a>
-        <a href="./recipes/pizza.html" target="_blank" rel="noopener noreferrer">Pizza</a>
-        <a href="./recipes/hamburger.html" target="_blank" rel="noopener noreferrer">Hamburger</a>
+        <main> 
+            <div class="chicken-curry link">
+                <a class="title" href="./recipes/chicken-curry.html" target="_self" rel="noopener noreferrer">Chicken Curry</a>
+                <img class="image" src="./recipes/chicken-curry.jpg" alt="a filipino-style chicken curry">
+            </div>
+
+            <div class="pizza link">
+                <a class="title" href="./recipes/pizza.html" target="_self" rel="noopener noreferrer">Pizza</a>
+                <img class="image" src="./recipes/pizza.jpg" alt="an image of a pizza">
+            </div>
+
+            <div class="hamburger link">
+                <a class="title" href="./recipes/hamburger.html" target="_self" rel="noopener noreferrer">Hamburger</a>
+                <img class="image" src="./recipes/hamburger.jpg" alt="an image of a hamburger">
+            </div>
+        </main>
     </body>
 </html>
